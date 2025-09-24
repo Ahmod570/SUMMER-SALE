@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.max-width {
+    max-width: 1024px;
+    margin: auto;
+}
+
+body {
+    background-color: rgba(248, 248, 248, 1);
+
+}
+
+nav {
+   
+    display: flex;
+    padding: 100px;
+
+}
+
+.logo-p {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    gap: 40px;
+}
+
+.logo-hd {
+    color: rgba(229, 39, 178, 1);
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-btn {
+    background-color: rgba(229, 39, 178, 1);
+    color: white;
+    padding: 6px 16px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.card img{
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.card-contant{
+    display: grid;
+    gap: 10px;
+        grid-template-columns: auto auto auto;
+    
+    }
+    .card-head{
+        margin: 30px;
+    }
+    
+    .cupon{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 8px ;
+        background-color: white;
+        margin-top: 89px;
+        margin-bottom: 40px;
+    }
+      .cupon input{
+        border: 1px solid gray;
+        padding:10px;
+      }
+         .cupon .apply {
+            background-color: rgba(229, 39, 178, 1);
+            border-radius:  0px 8px 8px 0px;
+            cursor: pointer;
+         }
+      .apply{
+        padding: 10px;
+        background-color: rgba(229, 39, 178, 1);
+        text-decoration: none;
+        color: white;
+      }
+
+
+    .form{
+        background-color: white;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 60px 20px ;
+    }
+      .form ol{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        padding: 4px;
+        list-style: none;
+        font-weight: bold;
+      }
+    .cupon-head .form p{
+        font-size: 15px;
+    }
+      .cupon-head .form p span{
+        color: rgba(17, 17, 17, 0.15);
+      }
+      .main-container{
+        display: flex;
+        gap: 10px;
+
+      }
+      .form button{
+        background-color: rgba(229, 39, 178, 1);
+        border: none;
+        border-radius: 8px; 
+        padding: 8px 40px;
+        color: white;
+            cursor: pointer;}
+            .btn-1{
+                display: flex;
+            }
+
+
+
+
+
+@media only screen and (max-width:768px){
+nav{
+    flex-direction: column-reverse;
+}
+ .btn-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.card-contant{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.card-contant .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+    ;
+}
+.main-container{
+    flex-direction: column;
+}
+.card-head{
+    text-align: center;
+}
+.card img{
+    justify-content: center;
+    align-items: center;
+}
+
+.cupon-head{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.cupon{
+    justify-content: center;
+    align-items: center;
+}
+.form{
+  justify-content: center;
+    align-items: center; 
+}
+hr{ height: 1px;
+width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+}

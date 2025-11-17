@@ -27,10 +27,11 @@
         <main class="max-width ">
         <h2 class="card-head">Kitchenware</h2>
         <section class="card-contant max-width">
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Home_appliance"><img style="padding: 30px 60px;
+            <!-- card-1 -->
+            <div onclick="getProductData(this)" data-name="Spoon Box" data-price="40.00"  id="card-1" class="card">
+                <img style="padding: 30px 60px;
                 border-radius: 8px;
-        " src="./media/spoon box.png" alt="" width="31%"></a>
+        " src="./media/spoon box.png" alt="" width="31%">
                 
                 <main>
                     <div>
@@ -40,14 +41,15 @@
                         <img src="./media/star without bc.png" alt="">
                         <img src="./media/star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p id="card-1-name">Spoon Box</p>
+                    <p id="card-1-price"><span style="color: rgba(17, 17, 17, 0.5);">40.00 TK</span></p>
                 </main>
 
             </div>
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Home_appliance"><img style="padding: 30px 60px;border-radius: 8px;
-        " src="./media/plate box.png" alt="" width="35%"></a>
+            <!-- card-2 -->
+            <div data-name="Cutting Board" data-price="39.00" onclick="getProductData(this)" id="card-2" class="card">
+                <img style="padding: 30px 60px;border-radius: 8px;
+        " src="./media/plate box.png" alt="" width="35%">
                 <main>
                     <div>
                         
@@ -57,15 +59,16 @@
                         <img src="./media/star without bc.png" alt="">
                         <img src="./media/star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p id="card-2-name">Cutting Board</p>
+                    <p id="card-2-price"><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
                 </main>
 
             </div>
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Rice_cooker"><img style="padding: 30px 60px;
+            <!-- card-3 -->
+            <div data-name="Home Cooker" data-price="20.00" onclick="getProductData(this)" id="card-3" class="card">
+                <img style="padding: 30px 60px;
                 border-radius: 8px;
-       " src="./media/coocker.png" alt="" width="35%"></a>
+       " src="./media/coocker.png" alt="" width="35%">
                 <main>
                     <div>
                         <img src="./media/star.png" alt="">
@@ -75,18 +78,19 @@
                         
                         <img src="star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p id="card-3-name">Home Cooker</p>
+                    <p id="card-3-price"><span style="color: rgba(17, 17, 17, 0.5);">20.00 TK</span></p>
                 </main>
 
             </div>
         </section>
         <h2 class="card-head">Sportswear</h2>
         <section class="card-contant max-width">
-            <div class="card">
-                <a href="https://en.wikipedia.org/wiki/Cap"><img style="padding: 30px 60px;
+            <!-- card-4 -->
+            <div onclick="getProductData(this)" data-name="cap" data-price="10.00" id="card-4" class="card">
+                <img style="padding: 30px 60px;
                 border-radius: 8px;
-       " src="./media/cap.png" alt="" width="40%"></a>
+       " src="./media/cap.png" alt="" width="40%">
                 
                 <main>
                     <div>
@@ -98,15 +102,16 @@
                         <img src="./media/star without bc.png" alt="">
                         <img src="./media/star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p>Cap</p>
+                    <p><span style="color: rgba(17, 17, 17, 0.5);">10.00 TK</span></p>
                 </main>
 
             </div>
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Sweater"><img style="padding: 30px 60px;
+            <!-- card-5 -->
+            <div onclick="getProductData(this)" data-name="Jersy" data-price="20.00" id="card-5"  class="card">
+              <img style="padding: 30px 60px;
                 border-radius: 8px;
-        " src="./media/jersy.png" alt="" width="35%"></a>
+        " src="./media/jersy.png" alt="" width="35%">
                 
                 <main>
                     <div>
@@ -117,14 +122,15 @@
                         
                         <img src="./media/star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p>Jersy</p>
+                    <p><span style="color: rgba(17, 17, 17, 0.5);">20.00 TK</span></p>
                 </main>
 
             </div>
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Footwear"> <img style="padding: 30px 60px;border-radius: 8px;
-        " src="./media/shoes.png" alt="" width="35%"></a>
+            <!-- card-6 -->
+            <div onclick="getProductData(this)" data-name="Shoe" data-price="30.00" id="card-6"  class="card">
+                 <img style="padding: 30px 60px;border-radius: 8px;
+        " src="./media/shoes.png" alt="" width="35%">
                
                 <main>
                     <div>
@@ -134,17 +140,18 @@
                         <img src="./media/star without bc.png" alt="">
                         <img src="./media/star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p>Shoe</p>
+                    <p><span style="color: rgba(17, 17, 17, 0.5);">30.00 TK</span></p>
                 </main>
 
             </div>
         </section>
         <h2 class="card-head">Furniture</h2>
         <section class="card-contant max-width">
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Upholstery"><img style="padding: 30px 60px;border-radius: 8px;
-        " src="./media/chair-1.png" alt="" width="35%"></a>
+            <!-- card-7 -->
+            <div onclick="getProductData(this)" data-name="Sofa" data-price="90.00" id="card-7" class="card">
+               <img style="padding: 30px 60px;border-radius: 8px;
+        " src="./media/chair-1.png" alt="" width="35%">
                 
                 <main>
                     <div>
@@ -155,15 +162,16 @@
                         
                         <img src="./media/star without bc.png" alt="">
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p>Sofa</p>
+                    <p><span style="color: rgba(17, 17, 17, 0.5);">90.00 TK</span></p>
                 </main>
 
             </div>
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Rocking_chair"> <img style="padding: 30px 60px;
+            <!-- card-8 -->
+            <div onclick="getProductData(this)" data-name="Chair" data-price="80.00" id="card-8"  class="card">
+                 <img style="padding: 30px 60px;
                 border-radius: 8px;
-        " src="./media/chair-2.png" alt="" width="33%"></a>
+        " src="./media/chair-2.png" alt="" width="33%">
                
                 <main>
                     <div>
@@ -174,13 +182,14 @@
                         <img src="./media/star.png" alt="">
                         
                     </div>
-                    <p>K. Accessories</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    <p>Chair</p>
+                    <p><span style="color: rgba(17, 17, 17, 0.5);">80.00 TK</span></p>
                 </main>
 
             </div>
-            <div class="card">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Couch"><img style="padding: 30px 60px;
+            <!-- card-9 -->
+            <div onclick="getProductData(this)" data-name="Premium sofa" data-price="70.00" id="card-9"  class="card">
+                <img style="padding: 30px 60px;
                 border-radius: 8px;
        " src="./media/sofa.png" alt="" width="45%"></a>
                 <main>
@@ -192,7 +201,7 @@
                         <img src="./media/star.png" alt="">
                         
                     </div>
-                    <p>K. Accessories</p>
+                    <p>Premium sofa</p>
                     <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
                 </main>
 
@@ -236,5 +245,7 @@
     </section>
 
 </body>
+
+<script src="./index.js">  </script>
 
 </html>

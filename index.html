@@ -1,248 +1,285 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+
+    
+
+    
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section style=" background-color: rgba(249, 246, 226, 1);"><nav class="max-width">
-        <div class="logo-p">
-            <p>---SALE FEVER---</p>
-            <h1>Purchase TK 200 or <br> above & get <span class="logo-hd">20% off</span></h1>
-            <div class="btn-1">
-                <p>Use Promo Code <p class="logo-btn" style="text-decoration: none;
+    <section style=" background-color: rgba(249, 246, 226, 1);">
+        <nav class="max-width">
+            <div class="logo-p">
+                <p>---SALE FEVER---</p>
+                <h1>Purchase TK 200 or <br> above & get <span class="logo-hd">20% off</span></h1>
+                <div class="btn-1">
+                    <p>Use Promo Code
+                    <p class="logo-btn" style="text-decoration: none;
             color:white;">SELL200</p>
+                </div>
             </div>
-        </div>
-        <div class="logo">
-            <img src="./media/logo.png" alt="logo" width="90%">
-        </div>
-    </nav></section>
+            <div class="logo">
+                <img src="./media/logo.png" alt="logo" width="90%">
+            </div>
+        </nav>
+    </section>
 
-    <section class="main-container max-width">
+    <section style="margin-bottom: 100px;" class="main-container max-width">
         <main class="max-width ">
-        <h2 class="card-head">Kitchenware</h2>
-        <section class="card-contant max-width">
-            <!-- card-1 -->
-            <div onclick="getProductData(this)" data-name="Spoon Box" data-price="40.00"  id="card-1" class="card">
-                <img style="padding: 30px 60px;
+            <h2 class="card-head">Kitchenware</h2>
+            <section class="card-contant max-width">
+                <!-- card-1 -->
+                <div onclick="getProductData(this)" data-name="Spoon Box" data-price="40.00" id="card-1" class="card">
+                    <img style="padding: 30px 60px;
                 border-radius: 8px;
         " src="./media/spoon box.png" alt="" width="31%">
-                
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                    </div>
-                    <p id="card-1-name">Spoon Box</p>
-                    <p id="card-1-price"><span style="color: rgba(17, 17, 17, 0.5);">40.00 TK</span></p>
-                </main>
 
-            </div>
-            <!-- card-2 -->
-            <div data-name="Cutting Board" data-price="39.00" onclick="getProductData(this)" id="card-2" class="card">
-                <img style="padding: 30px 60px;border-radius: 8px;
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                        </div>
+                        <p id="card-1-name">Spoon Box</p>
+                        <p id="card-1-price"><span style="color: rgba(17, 17, 17, 0.5);">40.00 TK</span></p>
+                    </main>
+
+                </div>
+                <!-- card-2 -->
+                <div data-name="Cutting Board" data-price="39.00" onclick="getProductData(this)" id="card-2"
+                    class="card">
+                    <img style="padding: 30px 60px;border-radius: 8px;
         " src="./media/plate box.png" alt="" width="35%">
-                <main>
-                    <div>
-                        
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                    </div>
-                    <p id="card-2-name">Cutting Board</p>
-                    <p id="card-2-price"><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
-                </main>
+                    <main>
+                        <div>
 
-            </div>
-            <!-- card-3 -->
-            <div data-name="Home Cooker" data-price="20.00" onclick="getProductData(this)" id="card-3" class="card">
-                <img style="padding: 30px 60px;
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                        </div>
+                        <p id="card-2-name">Cutting Board</p>
+                        <p id="card-2-price"><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    </main>
+
+                </div>
+                <!-- card-3 -->
+                <div data-name="Home Cooker" data-price="20.00" onclick="getProductData(this)" id="card-3" class="card">
+                    <img style="padding: 30px 60px;
                 border-radius: 8px;
        " src="./media/coocker.png" alt="" width="35%">
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        
-                        <img src="star without bc.png" alt="">
-                    </div>
-                    <p id="card-3-name">Home Cooker</p>
-                    <p id="card-3-price"><span style="color: rgba(17, 17, 17, 0.5);">20.00 TK</span></p>
-                </main>
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
 
-            </div>
-        </section>
-        <h2 class="card-head">Sportswear</h2>
-        <section class="card-contant max-width">
-            <!-- card-4 -->
-            <div onclick="getProductData(this)" data-name="cap" data-price="10.00" id="card-4" class="card">
-                <img style="padding: 30px 60px;
+                            <img src="star without bc.png" alt="">
+                        </div>
+                        <p id="card-3-name">Home Cooker</p>
+                        <p id="card-3-price"><span style="color: rgba(17, 17, 17, 0.5);">20.00 TK</span></p>
+                    </main>
+
+                </div>
+            </section>
+            <h2 class="card-head">Sportswear</h2>
+            <section class="card-contant max-width">
+                <!-- card-4 -->
+                <div onclick="getProductData(this)" data-name="cap" data-price="10.00" id="card-4" class="card">
+                    <img style="padding: 30px 60px;
                 border-radius: 8px;
        " src="./media/cap.png" alt="" width="40%">
-                
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        
-                        
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                    </div>
-                    <p>Cap</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">10.00 TK</span></p>
-                </main>
 
-            </div>
-            <!-- card-5 -->
-            <div onclick="getProductData(this)" data-name="Jersy" data-price="20.00" id="card-5"  class="card">
-              <img style="padding: 30px 60px;
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+
+
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                        </div>
+                        <p>Cap</p>
+                        <p><span style="color: rgba(17, 17, 17, 0.5);">10.00 TK</span></p>
+                    </main>
+
+                </div>
+                <!-- card-5 -->
+                <div onclick="getProductData(this)" data-name="Jersy" data-price="20.00" id="card-5" class="card">
+                    <img style="padding: 30px 60px;
                 border-radius: 8px;
         " src="./media/jersy.png" alt="" width="35%">
-                
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        
-                        <img src="./media/star without bc.png" alt="">
-                    </div>
-                    <p>Jersy</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">20.00 TK</span></p>
-                </main>
 
-            </div>
-            <!-- card-6 -->
-            <div onclick="getProductData(this)" data-name="Shoe" data-price="30.00" id="card-6"  class="card">
-                 <img style="padding: 30px 60px;border-radius: 8px;
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+
+                            <img src="./media/star without bc.png" alt="">
+                        </div>
+                        <p>Jersy</p>
+                        <p><span style="color: rgba(17, 17, 17, 0.5);">20.00 TK</span></p>
+                    </main>
+
+                </div>
+                <!-- card-6 -->
+                <div onclick="getProductData(this)" data-name="Shoe" data-price="30.00" id="card-6" class="card">
+                    <img style="padding: 30px 60px;border-radius: 8px;
         " src="./media/shoes.png" alt="" width="35%">
-               
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                        <img src="./media/star without bc.png" alt="">
-                    </div>
-                    <p>Shoe</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">30.00 TK</span></p>
-                </main>
 
-            </div>
-        </section>
-        <h2 class="card-head">Furniture</h2>
-        <section class="card-contant max-width">
-            <!-- card-7 -->
-            <div onclick="getProductData(this)" data-name="Sofa" data-price="90.00" id="card-7" class="card">
-               <img style="padding: 30px 60px;border-radius: 8px;
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                            <img src="./media/star without bc.png" alt="">
+                        </div>
+                        <p>Shoe</p>
+                        <p><span style="color: rgba(17, 17, 17, 0.5);">30.00 TK</span></p>
+                    </main>
+
+                </div>
+            </section>
+            <h2 class="card-head">Furniture</h2>
+            <section class="card-contant max-width">
+                <!-- card-7 -->
+                <div onclick="getProductData(this)" data-name="Sofa" data-price="90.00" id="card-7" class="card">
+                    <img style="padding: 30px 60px;border-radius: 8px;
         " src="./media/chair-1.png" alt="" width="35%">
-                
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        
-                        <img src="./media/star without bc.png" alt="">
-                    </div>
-                    <p>Sofa</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">90.00 TK</span></p>
-                </main>
 
-            </div>
-            <!-- card-8 -->
-            <div onclick="getProductData(this)" data-name="Chair" data-price="80.00" id="card-8"  class="card">
-                 <img style="padding: 30px 60px;
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+
+                            <img src="./media/star without bc.png" alt="">
+                        </div>
+                        <p>Sofa</p>
+                        <p><span style="color: rgba(17, 17, 17, 0.5);">90.00 TK</span></p>
+                    </main>
+
+                </div>
+                <!-- card-8 -->
+                <div onclick="getProductData(this)" data-name="Chair" data-price="80.00" id="card-8" class="card">
+                    <img style="padding: 30px 60px;
                 border-radius: 8px;
         " src="./media/chair-2.png" alt="" width="33%">
-               
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        
-                    </div>
-                    <p>Chair</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">80.00 TK</span></p>
-                </main>
 
-            </div>
-            <!-- card-9 -->
-            <div onclick="getProductData(this)" data-name="Premium sofa" data-price="70.00" id="card-9"  class="card">
-                <img style="padding: 30px 60px;
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+
+                        </div>
+                        <p>Chair</p>
+                        <p><span style="color: rgba(17, 17, 17, 0.5);">80.00 TK</span></p>
+                    </main>
+
+                </div>
+                <!-- card-9 -->
+                <div onclick="getProductData(this)" data-name="Premium sofa" data-price="70.00" id="card-9"
+                    class="card">
+                    <img style="padding: 30px 60px;
                 border-radius: 8px;
        " src="./media/sofa.png" alt="" width="45%"></a>
-                <main>
-                    <div>
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        <img src="./media/star.png" alt="">
-                        
-                    </div>
-                    <p>Premium sofa</p>
-                    <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
-                </main>
+                    <main>
+                        <div>
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+                            <img src="./media/star.png" alt="">
+
+                        </div>
+                        <p>Premium sofa</p>
+                        <p><span style="color: rgba(17, 17, 17, 0.5);">39.00 TK</span></p>
+                    </main>
+
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+
+
+        <main class="cupon-head">
+            <div class="cupon max-width">
+                <h4>Have coupon?</h4>
+                <div style="display: flex; align-items: center;">
+                    <input type="text" id="discountValue" placeholder="cupon code">
+                    <span onclick="discuuntCal()" class="apply"> Apply</span>
+
+                </div>
+            </div>
+            <div class="form  max-width">
+                <ol id="displayName" class="list-decimal">
+                    <!-- <li>1. Home Cooker</li>
+                    <li>
+                        2. Sports cates
+                    </li>
+                    <li>3. Home Cooker</li> -->
+                </ol>
+                <hr>
+                <p>Total price: <span id="totalPrice">00TK</span></p>
+                <p>Discount : <span id="discount">00TK</span></p>
+                <p>Total:<span id="total"> 00 TK</span></p>
+
+                <hr>
+
+
+
+
+                
+
+
+
+<!-- 2 -->
+
+
+<button class="dialog" onclick="my_modal_1.showModal()">Make Purchase</button>
+
+<dialog id="my_modal_1" style="  backdrop-filter: blur(5px);background: rgba(0,0,0,0.3);    height: 50%; width: 25%; text-align: center; justify-content: center;  border-radius: 20px; margin-left: 35%; margin-top: 10%;" class="modal">
+  <div class="div-1" style="justify-items: center; text-align: center; margin-top: 20px; gap: 10px;">
+    <div class="div-2">
+      <img src="./media/modal_icon.png" alt="" />
+    </div>
+
+    <h3 style="margin-top: 10px; font-size: 30px; margin-bottom: 12px;" >Congratulations</h3>
+    <p style="font-weight: bolder; margin-bottom: 10px;">Your Purchase the product</p>
+
+    <form method="dialog">
+      <button class="btn">Go Home</button>
+    </form>
+  </div>
+</dialog>
+
 
             </div>
-        </section>
-    </main>
-
-
-
-
-
-
-
-    <main class="cupon-head">
-        <div class="cupon max-width">
-        <h4>Have coupon?</h4>
-        <div style="display: flex; align-items: center;">
-            <input type="text" placeholder="cupon code">
-            <span class="apply" >  Apply</span>
-            
-        </div>
-    </div>
-    <div class="form  max-width">
-        <ol>
-            <li>1. Home Cooker</li>
-            <li>
-               2. Sports cates
-            </li>
-            <li>3. Home Cooker</li>
-        </ol>
-        <hr>
-        <p>Total price: <span>257.00TK</span></p>
-        <p>Discount : <span>51.40TK</span></p>
-        <p>Total:<span> 205.60 TK</span></p>
-        
-        <hr>
-        
-
-<button>Make Purchase</button>   </div>
-    </main>
+        </main>
     </section>
+    <!-- <p style="text-align: center; text-decoration: none;">copywrite by : <a href="">AHMOD SANY</a></p> -->
 
 </body>
 

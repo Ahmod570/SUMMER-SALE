@@ -82,7 +82,8 @@ nav {
     
     }
     .card-head{
-        margin: 30px;
+        margin: 30px; 
+        margin-bottom: 50px;
     }
     
     .cupon{
@@ -92,7 +93,7 @@ nav {
         padding: 20px;
         border-radius: 8px ;
         background-color: white;
-        margin-top: 89px;
+        margin-top: 20;
         margin-bottom: 40px;
     }
       .cupon input{
@@ -118,7 +119,7 @@ nav {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding: 60px 20px ;
+        padding: 20px 20px ;
     }
       .form ol{
         display: flex;
@@ -127,12 +128,16 @@ nav {
         padding: 4px;
         list-style: none;
         font-weight: bold;
+        text-shadow: 0cqmin;
       }
     .cupon-head .form p{
         font-size: 15px;
+        font-weight: 800;
+        
     }
       .cupon-head .form p span{
-        color: rgba(17, 17, 17, 0.15);
+        color: rgb(17, 17, 17);
+        font-weight: bolder;
       }
       .main-container{
         display: flex;
@@ -149,8 +154,6 @@ nav {
             .btn-1{
                 display: flex;
             }
-
-
 
 
 
